@@ -4,9 +4,9 @@
 #
 # Autor: 	G.Seilheimer
 # Company:	contic.de
-# Version: 	1.3.4
-# Update:	2012-03-21
-# CMS:		Redaxo 4.3.3
+# Version: 	0.9.3
+# Update:	2013-03-17
+# CMS:		Redaxo 4.5
 #
 #*********************************************
 
@@ -24,6 +24,8 @@ DELETE FROM `%TABLE_PREFIX%679_types` WHERE `id`=623 LIMIT 1;
 DELETE FROM `%TABLE_PREFIX%679_types` WHERE `id`=624 LIMIT 1;
 DELETE FROM `%TABLE_PREFIX%679_types` WHERE `id`=625 LIMIT 1;
 DELETE FROM `%TABLE_PREFIX%679_types` WHERE `id`=626 LIMIT 1;
+DELETE FROM `%TABLE_PREFIX%679_types` WHERE `id`=627 LIMIT 1;
+DELETE FROM `%TABLE_PREFIX%679_types` WHERE `id`=628 LIMIT 1;
 
 #*********************************************
 #
@@ -38,6 +40,8 @@ DELETE FROM `%TABLE_PREFIX%679_type_effects` WHERE `id`=623 LIMIT 1;
 DELETE FROM `%TABLE_PREFIX%679_type_effects` WHERE `id`=624 LIMIT 1;
 DELETE FROM `%TABLE_PREFIX%679_type_effects` WHERE `id`=625 LIMIT 1;
 DELETE FROM `%TABLE_PREFIX%679_type_effects` WHERE `id`=626 LIMIT 1;
+DELETE FROM `%TABLE_PREFIX%679_type_effects` WHERE `id`=627 LIMIT 1;
+DELETE FROM `%TABLE_PREFIX%679_type_effects` WHERE `id`=628 LIMIT 1;
 
 #*********************************************
 #

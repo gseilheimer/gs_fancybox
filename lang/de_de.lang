@@ -2,10 +2,16 @@
 
 addon_name = Fancybox
 
+addon_subpage_index = Startseite
+
+addon_subpage_index_txt_01 = FancyBox 1.3.4
+addon_subpage_index_txt_01_01 = - In Lies Mich finden Sie Details zum PlugIn
+addon_subpage_index_txt_01_02 = - In Module finden Sie Details zu den REX-Modulen
+
 addon_subpage_readme = Lies mich
 
 addon_subpage_readme_txt_01 = Fancybox - eingebundene Dateien
-addon_subpage_readme_txt_01_01 = Enthält alle wichtigen Komponenten in den aktuellen Versionen:
+addon_subpage_readme_txt_01_01 = EnthÃ¤lt alle wichtigen Komponenten in den aktuellen Versionen:
 addon_subpage_readme_txt_01_02 = - jquery.fancybox-1.3.4.css
 addon_subpage_readme_txt_01_03 = - jquery.fancybox-1.3.4.js
 addon_subpage_readme_txt_01_04 = - jquery.fancybox-1.3.4.pack.js
@@ -25,33 +31,31 @@ addon_subpage_readme_txt_02_07 = Alle Script-Angaben stehen NUR im HEADER und si
 addon_subpage_readme_txt_02_08 = WEITERE HINWEISE ENTNEHMEN SIE BITTE DEM INSTALLATIONSTEIL...
 
 addon_subpage_readme_txt_03 = Hinweise: Konfiguration anpassen
-addon_subpage_readme_txt_03_01 = Ändern Sie bitte einfach nur die Effekte im Image-Manager, damit Ihnen weitere Systemanpassungen erspart bleiben... 
-addon_subpage_readme_txt_03_02 = Sollten Sie die Konfiguration dennoch ändern wollen, nachfolgend die notwendigen Schritte:
-addon_subpage_readme_txt_03_03 = a) Ändern der "Bildtypen bearbeiten" und der zugehörigen "Effekte bearbeiten"
-addon_subpage_readme_txt_03_04 = b) Alle Anpassungen und Namensänderungen müssen im Modul berücksichtigt werden!
+addon_subpage_readme_txt_03_01 = Ã„ndern Sie bitte einfach nur die Effekte im Image-Manager, damit Ihnen weitere Systemanpassungen erspart bleiben... 
+addon_subpage_readme_txt_03_02 = Sollten Sie die Konfiguration dennoch Ã¤ndern wollen, nachfolgend die notwendigen Schritte:
+addon_subpage_readme_txt_03_03 = a) Ã„ndern der "Bildtypen bearbeiten" und der zugehÃ¶rigen "Effekte bearbeiten"
+addon_subpage_readme_txt_03_04 = b) Alle Anpassungen und NamensÃ¤nderungen mÃ¼ssen im Modul berÃ¼cksichtigt werden!
 
-addon_subpage_readme_txt_04 = Hinweise: Löschen der Bildtypen
-addon_subpage_readme_txt_04_01 = Das Löschen der Bildtypen ist nur möglich, wenn das Fancybox-Addon deinstalliert wird, da diese Bildtypen und die Effekte mit der Installation = eingebunden werden.
+addon_subpage_readme_txt_04 = Hinweise: LÃ¶schen der Bildtypen
+addon_subpage_readme_txt_04_01 = Das LÃ¶schen der Bildtypen ist nur mÃ¶glich, wenn das Fancybox-Addon deinstalliert wird, da diese Bildtypen und die Effekte mit der Installation = eingebunden werden.
 
 addon_subpage_readme_txt_05 = Hinweise: Installation/Einbindung des REX_TEMPLATE[620]
-addon_subpage_readme_txt_05_01 = Für die korrekte Nutzung des Addons ist es notwendig das TEMPLATE mit der ID=620 in das Standard-Template für den Artikel einzubinden.
+addon_subpage_readme_txt_05_01 = FÃ¼r die korrekte Nutzung des Addons ist es notwendig das TEMPLATE mit der ID=620 in das Standard-Template fÃ¼r den Artikel einzubinden.
 addon_subpage_readme_txt_05_02 = REX_TEMPLATE[620] per Copy'n'Paste in das Standard-Template vor dem HEAD-End-Tag einbinden:
 addon_subpage_readme_txt_05_03 = ...
 addon_subpage_readme_txt_05_04 = REX_TEMPLATE[620]
 addon_subpage_readme_txt_05_05 = <\head>
 
-addon_subpage_setup = Konfiguration
+addon_subpage_modul = Module
 
 addon_subpage_modul_image = Module (Bild)
 
 addon_subpage_modul_image_txt_01 = Eingabe/Ausgabe (Bild-Beispiel)
-addon_subpage_modul_image_txt_01_01 = Das aktuelle Beispiel-Modul für dieses Addon finden Sie unter der nachfolgenden Adresse:
+addon_subpage_modul_image_txt_01_01 = Das aktuelle Beispiel-Modul fÃ¼r dieses Addon finden Sie unter der nachfolgenden Adresse:
 addon_subpage_modul_image_txt_01_02 = http://www.redaxo.org/165-0-moduldetails.html?module_id=506
 
 addon_subpage_modul_galery = Module (Galerie)
 
 addon_subpage_modul_galery_txt_01 = Eingabe/Ausgabe (Galerie-Beispiel)
-addon_subpage_modul_galery_txt_01_01 = Das aktuelle Beispiel-Modul für dieses Addon finden Sie unter der nachfolgenden Adresse:
+addon_subpage_modul_galery_txt_01_01 = Das aktuelle Beispiel-Modul fÃ¼r dieses Addon finden Sie unter der nachfolgenden Adresse:
 addon_subpage_modul_galery_txt_01_02 = http://www.redaxo.org/165-0-moduldetails.html?module_id=465
-
-

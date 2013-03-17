@@ -2,6 +2,12 @@
 
 addon_name = Fancybox
 
+addon_subpage_index = Startseite
+
+addon_subpage_index_txt_01 = FancyBox 1.3.4
+addon_subpage_index_txt_01_01 = - In Lies mich finden Sie Details zum PlugIn
+addon_subpage_index_txt_01_02 = - In Module finden Sie Details zu den REX-Modulen
+
 addon_subpage_readme = Lies mich
 
 addon_subpage_readme_txt_01 = Fancybox - eingebundene Dateien
@@ -40,7 +46,7 @@ addon_subpage_readme_txt_05_03 = ...
 addon_subpage_readme_txt_05_04 = REX_TEMPLATE[620]
 addon_subpage_readme_txt_05_05 = <\head>
 
-addon_subpage_setup = Konfiguration
+addon_subpage_modul = Module
 
 addon_subpage_modul_image = Module (Bild)
 
