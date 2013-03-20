@@ -49,4 +49,4 @@ DELETE FROM `%TABLE_PREFIX%679_type_effects` WHERE `id`=628 LIMIT 1;
 #
 #*********************************************
 
-DELETE FROM `%TABLE_PREFIX%template` WHERE `id`=620 LIMIT 1;
+DELETE FROM `%TABLE_PREFIX%template` WHERE `name` LIKE '%gs : fancybox (jquery)%' LIMIT 1;
