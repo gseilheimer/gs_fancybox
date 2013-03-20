@@ -1,61 +1,61 @@
 ﻿# addon:fancybox de_de | de_de_utf8
 
-addon_name = Fancybox
+gs_fancybox_name = Fancybox
 
-addon_subpage_index = Startseite
+gs_fancybox_subpage_index = Startseite
 
-addon_subpage_index_txt_01 = FancyBox 1.3.4
-addon_subpage_index_txt_01_01 = - In Lies mich finden Sie Details zum PlugIn
-addon_subpage_index_txt_01_02 = - In Module finden Sie Details zu den REX-Modulen
+gs_fancybox_subpage_index_txt_01 = FancyBox 1.3.4
+gs_fancybox_subpage_index_txt_01_01 = - In Lies mich finden Sie Details zum PlugIn
+gs_fancybox_subpage_index_txt_01_02 = - In Module finden Sie Details zu den REX-Modulen
 
-addon_subpage_readme = Lies mich
+gs_fancybox_subpage_readme = Lies mich
 
-addon_subpage_readme_txt_01 = Fancybox - eingebundene Dateien
-addon_subpage_readme_txt_01_01 = Enthält alle wichtigen Komponenten in den aktuellen Versionen:
-addon_subpage_readme_txt_01_02 = - jquery.fancybox-1.3.4.css
-addon_subpage_readme_txt_01_03 = - jquery.fancybox-1.3.4.js
-addon_subpage_readme_txt_01_04 = - jquery.fancybox-1.3.4.pack.js
-addon_subpage_readme_txt_01_05 = - jquery.mousewheel-3.0.4.pack.js
-addon_subpage_readme_txt_01_06 = - jquery.easyslider-1.7.5.css
-addon_subpage_readme_txt_01_07 = - jquery.easyslider-1.7.5.js
-addon_subpage_readme_txt_01_08 = Alle Dateien sind in .\files\addons\gs_fancybox\
+gs_fancybox_subpage_readme_txt_01 = Fancybox - eingebundene Dateien
+gs_fancybox_subpage_readme_txt_01_01 = Enthält alle wichtigen Komponenten in den aktuellen Versionen:
+gs_fancybox_subpage_readme_txt_01_02 = - jquery.fancybox-1.3.4.css
+gs_fancybox_subpage_readme_txt_01_03 = - jquery.fancybox-1.3.4.js
+gs_fancybox_subpage_readme_txt_01_04 = - jquery.fancybox-1.3.4.pack.js
+gs_fancybox_subpage_readme_txt_01_05 = - jquery.mousewheel-3.0.4.pack.js
+gs_fancybox_subpage_readme_txt_01_06 = - jquery.easyslider-1.7.5.css
+gs_fancybox_subpage_readme_txt_01_07 = - jquery.easyslider-1.7.5.js
+gs_fancybox_subpage_readme_txt_01_08 = Alle Dateien sind in .\files\addons\gs_fancybox\
 
-addon_subpage_readme_txt_02 = Fancybox - hinterlegte JS-Funktionen
-addon_subpage_readme_txt_02_01 = $("a.fancyboxStyleDefault").fancybox({...});
-addon_subpage_readme_txt_02_02 = $("a.fancyboxStyleSpecial-1").fancybox({...});
-addon_subpage_readme_txt_02_03 = $("a.fancyboxStyleSpecial-2").fancybox({...});
-addon_subpage_readme_txt_02_04 = $("a.fancyboxStyleInline-1").fancybox({...});
-addon_subpage_readme_txt_02_05 = $("a.fancyboxStyleInline-2").fancybox({...});
-addon_subpage_readme_txt_02_06 = $("a.fancyboxStyleInline-3").fancybox({...});
-addon_subpage_readme_txt_02_07 = Alle Script-Angaben stehen NUR im HEADER und sind im TEMPALTE mit der ID=620 zu finden.
-addon_subpage_readme_txt_02_08 = WEITERE HINWEISE ENTNEHMEN SIE BITTE DEM INSTALLATIONSTEIL...
+gs_fancybox_subpage_readme_txt_02 = Fancybox - hinterlegte JS-Funktionen
+gs_fancybox_subpage_readme_txt_02_01 = $("a.fancyboxStyleDefault").fancybox({...});
+gs_fancybox_subpage_readme_txt_02_02 = $("a.fancyboxStyleSpecial-1").fancybox({...});
+gs_fancybox_subpage_readme_txt_02_03 = $("a.fancyboxStyleSpecial-2").fancybox({...});
+gs_fancybox_subpage_readme_txt_02_04 = $("a.fancyboxStyleInline-1").fancybox({...});
+gs_fancybox_subpage_readme_txt_02_05 = $("a.fancyboxStyleInline-2").fancybox({...});
+gs_fancybox_subpage_readme_txt_02_06 = $("a.fancyboxStyleInline-3").fancybox({...});
+gs_fancybox_subpage_readme_txt_02_07 = Alle Script-Angaben stehen NUR im HEADER und sind im TEMPALTE mit der ID=620 zu finden.
+gs_fancybox_subpage_readme_txt_02_08 = WEITERE HINWEISE ENTNEHMEN SIE BITTE DEM INSTALLATIONSTEIL...
 
-addon_subpage_readme_txt_03 = Hinweise: Konfiguration anpassen
-addon_subpage_readme_txt_03_01 = Ändern Sie bitte einfach nur die Effekte im Image-Manager, damit Ihnen weitere Systemanpassungen erspart bleiben... 
-addon_subpage_readme_txt_03_02 = Sollten Sie die Konfiguration dennoch ändern wollen, nachfolgend die notwendigen Schritte:
-addon_subpage_readme_txt_03_03 = a) Ändern der "Bildtypen bearbeiten" und der zugehörigen "Effekte bearbeiten"
-addon_subpage_readme_txt_03_04 = b) Alle Anpassungen und Namensänderungen müssen im Modul berücksichtigt werden!
+gs_fancybox_subpage_readme_txt_03 = Hinweise: Konfiguration anpassen
+gs_fancybox_subpage_readme_txt_03_01 = Ändern Sie bitte einfach nur die Effekte im Image-Manager, damit Ihnen weitere Systemanpassungen erspart bleiben... 
+gs_fancybox_subpage_readme_txt_03_02 = Sollten Sie die Konfiguration dennoch ändern wollen, nachfolgend die notwendigen Schritte:
+gs_fancybox_subpage_readme_txt_03_03 = a) Ändern der "Bildtypen bearbeiten" und der zugehörigen "Effekte bearbeiten"
+gs_fancybox_subpage_readme_txt_03_04 = b) Alle Anpassungen und Namensänderungen müssen im Modul berücksichtigt werden!
 
-addon_subpage_readme_txt_04 = Hinweise: Löschen der Bildtypen
-addon_subpage_readme_txt_04_01 = Das Löschen der Bildtypen ist nur möglich, wenn das Fancybox-Addon deinstalliert wird, da diese Bildtypen und die Effekte mit der Installation = eingebunden werden.
+gs_fancybox_subpage_readme_txt_04 = Hinweise: Löschen der Bildtypen
+gs_fancybox_subpage_readme_txt_04_01 = Das Löschen der Bildtypen ist nur möglich, wenn das Fancybox-Addon deinstalliert wird, da diese Bildtypen und die Effekte mit der Installation = eingebunden werden.
 
-addon_subpage_readme_txt_05 = Hinweise: Installation/Einbindung des REX_TEMPLATE[620]
-addon_subpage_readme_txt_05_01 = Für die korrekte Nutzung des Addons ist es notwendig das TEMPLATE mit der ID=620 in das Standard-Template für den Artikel einzubinden.
-addon_subpage_readme_txt_05_02 = REX_TEMPLATE[620] per Copy'n'Paste in das Standard-Template vor dem HEAD-End-Tag einbinden:
-addon_subpage_readme_txt_05_03 = ...
-addon_subpage_readme_txt_05_04 = REX_TEMPLATE[620]
-addon_subpage_readme_txt_05_05 = <\head>
+gs_fancybox_subpage_readme_txt_05 = Hinweise: Installation/Einbindung des REX_TEMPLATE[620]
+gs_fancybox_subpage_readme_txt_05_01 = Für die korrekte Nutzung des Addons ist es notwendig das TEMPLATE mit der ID=620 in das Standard-Template für den Artikel einzubinden.
+gs_fancybox_subpage_readme_txt_05_02 = REX_TEMPLATE[620] per Copy'n'Paste in das Standard-Template vor dem HEAD-End-Tag einbinden:
+gs_fancybox_subpage_readme_txt_05_03 = ...
+gs_fancybox_subpage_readme_txt_05_04 = REX_TEMPLATE[620]
+gs_fancybox_subpage_readme_txt_05_05 = <\head>
 
-addon_subpage_modul = Module
+gs_fancybox_subpage_modul = Module
 
-addon_subpage_modul_image = Module (Bild)
+gs_fancybox_subpage_modul_image = Module (Bild)
 
-addon_subpage_modul_image_txt_01 = Eingabe/Ausgabe (Bild-Beispiel)
-addon_subpage_modul_image_txt_01_01 = Das aktuelle Beispiel-Modul für dieses Addon finden Sie unter der nachfolgenden Adresse:
-addon_subpage_modul_image_txt_01_02 = http://www.redaxo.org/165-0-moduldetails.html?module_id=506
+gs_fancybox_subpage_modul_image_txt_01 = Eingabe/Ausgabe (Bild-Beispiel)
+gs_fancybox_subpage_modul_image_txt_01_01 = Das aktuelle Beispiel-Modul für dieses Addon finden Sie unter der nachfolgenden Adresse:
+gs_fancybox_subpage_modul_image_txt_01_02 = http://www.redaxo.org/165-0-moduldetails.html?module_id=506
 
-addon_subpage_modul_galery = Module (Galerie)
+gs_fancybox_subpage_modul_galery = Module (Galerie)
 
-addon_subpage_modul_galery_txt_01 = Eingabe/Ausgabe (Galerie-Beispiel)
-addon_subpage_modul_galery_txt_01_01 = Das aktuelle Beispiel-Modul für dieses Addon finden Sie unter der nachfolgenden Adresse:
-addon_subpage_modul_galery_txt_01_02 = http://www.redaxo.org/165-0-moduldetails.html?module_id=465
+gs_fancybox_subpage_modul_galery_txt_01 = Eingabe/Ausgabe (Galerie-Beispiel)
+gs_fancybox_subpage_modul_galery_txt_01_01 = Das aktuelle Beispiel-Modul für dieses Addon finden Sie unter der nachfolgenden Adresse:
+gs_fancybox_subpage_modul_galery_txt_01_02 = http://www.redaxo.org/165-0-moduldetails.html?module_id=465
