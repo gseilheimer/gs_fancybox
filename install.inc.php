@@ -27,7 +27,7 @@
    // Installationsbedingungen pruefen
    $page_check_rex = '4.4.1';
    $page_check_php = 5;
-   $page_check_addons = array('textile');
+   $page_check_addons = array('image_manager');
    $page_check_status = true;
 
    //////////////////////////////////////////////////////////////////////////////////
