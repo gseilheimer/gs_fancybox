@@ -84,12 +84,9 @@
             $params['subject'] .= "\n  ".'<script type="text/javascript" src="./files/addons/gs_fancybox/jquery.easyslider-1.7.7.js"></script>';
             $params['subject'] .= "\n  ".'<!-- GS:FANCYBOX-ENDE -->';
          }
-         return $params['subject'];
+         return str_replace('</head>', '</head>', $params['subject']);
       }
-      $params['subject'] = str_replace("</body>","</body>", $params['subject']);
       rex_register_extension('OUTPUT_FILTER', 'gs_fancybox_header');
-
    }
-
 
 ?>
