@@ -45,7 +45,6 @@
       // Sprachdateien anhaengen
       $I18N->appendFile($REX['INCLUDE_PATH'].'/addons/'.$page.'/lang/');
 
-      // NAV SUBPAGES
       $REX['ADDON'][$page]['SUBPAGES'] =
          //        subpage,         label,                                       perm,   params, attributes
          array(
@@ -60,6 +59,9 @@
       //////////////////////////////////////////////////////////////////////////////////
       #require_once $addon_root.'.....inc.php';
 
+   }
+   else
+   {
 
       //////////////////////////////////////////////////////////////////////////////////
       // FUNCTIONS
@@ -71,13 +73,23 @@
 
          if( FALSE == $REX["REDAXO"] )
          {
-            #$params['subject'] .= "\n  ".'<link rel="stylesheet" type="text/css" href="../files/addons/gs_sqlbuddy/jquery.bpopup.min.css" media="screen, projection, print" />';
-            #$params['subject'] .= "\n  ".'<script src="../files/addons/gs_sqlbuddy/jquery.bpopup.min.js" type="text/javascript"></script>';
+            $params['subject'] .= "\n  ".'<!-- GS:FANCYBOX-START -->';
+            $params['subject'] .= "\n  ".'<link rel="stylesheet" type="text/css" href="./files/addons/gs_fancybox/jquery.fancybox-1.3.4.css" media="screen, projection, print" />';
+            $params['subject'] .= "\n  ".'<!--[if IE 6]><link rel="stylesheet" type="text/css" href="../files/addons/gs_fancybox/jquery.fancybox-1.3.4_ie6.css" media="screen" /><![endif]-->';
+            $params['subject'] .= "\n  ".'<!--[if lte IE 8]><link href="./files/addons/gs_fancybox/jquery.fancybox-1.3.4_ie6_ie7_ie8.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->';
+            $params['subject'] .= "\n  ".'<script type="text/javascript" src="./files/addons/gs_fancybox/jquery.fancybox-1.3.4.js"></script>';
+            $params['subject'] .= "\n  ".'<script type="text/javascript" src="./files/addons/gs_fancybox/jquery.fancybox-1.3.4.pack.js"></script>';
+            $params['subject'] .= "\n  ".'<script type="text/javascript" src="./files/addons/gs_fancybox/jquery.easing-1.3.pack.js"></script>';
+            $params['subject'] .= "\n  ".'<script type="text/javascript" src="./files/addons/gs_fancybox/jquery.mousewheel-3.0.4.pack.js"></script>';
+            $params['subject'] .= "\n  ".'<script type="text/javascript" src="./files/addons/gs_fancybox/jquery.easyslider-1.7.7.js"></script>';
+            $params['subject'] .= "\n  ".'<!-- GS:FANCYBOX-ENDE -->';
          }
          return $params['subject'];
       }
+      $params['subject'] = str_replace("</body>","</body>", $params['subject']);
+      rex_register_extension('OUTPUT_FILTER', 'gs_fancybox_header');
 
-      rex_register_extension('PAGE_HEADER', 'gs_fancybox_header');
    }
+
 
 ?>

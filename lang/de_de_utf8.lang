@@ -39,8 +39,8 @@ gs_fancybox_subpage_readme_txt_03_04 = b) Alle Anpassungen und Namensänderungen
 gs_fancybox_subpage_readme_txt_04 = Hinweise: Löschen der Bildtypen
 gs_fancybox_subpage_readme_txt_04_01 = Das Löschen der Bildtypen ist nur möglich, wenn das Fancybox-Addon deinstalliert wird, da diese Bildtypen und die Effekte mit der Installation = eingebunden werden.
 
-gs_fancybox_subpage_readme_txt_05 = Hinweise: Installation/Einbindung des REX_TEMPLATE[620]
-gs_fancybox_subpage_readme_txt_05_01 = Für die korrekte Nutzung des Addons ist es notwendig das TEMPLATE mit der ID=620 in das Standard-Template für den Artikel einzubinden.
+gs_fancybox_subpage_readme_txt_05 = Hinweise: Installation/Einbindung des REX_TEMPLATE[]
+gs_fancybox_subpage_readme_txt_05_01 = Für die korrekte Nutzung des Addons ist es notwendig das TEMPLATE z.B. mit der ID=620 in das Standard-Template für den Artikel einzubinden. Sie erkennen die korrekte ID an der Bezeichnung "gs : fancybox (jqery)"
 gs_fancybox_subpage_readme_txt_05_02 = REX_TEMPLATE[620] per Copy'n'Paste in das Standard-Template vor dem HEAD-End-Tag einbinden:
 gs_fancybox_subpage_readme_txt_05_03 = ...
 gs_fancybox_subpage_readme_txt_05_04 = REX_TEMPLATE[620]
