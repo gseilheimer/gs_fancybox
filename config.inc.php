@@ -67,12 +67,17 @@
       // FUNCTIONS
       //////////////////////////////////////////////////////////////////////////////////
 
+      // sool
+      /*
       function gs_fancybox_header( $params )
       {
          global $REX;
 
          if( FALSE == $REX["REDAXO"] )
          {
+            $params['subject'] .= "\n  ".'<!-- GS:JQUERY-START -->';
+            $params['subject'] .= "\n  ".'<script type="text/javascript" src="./files/addons/gs_fancybox/jquery-1.9.1.min.js"></script>';
+            $params['subject'] .= "\n  ".'<!-- GS:JQUERY-ENDE -->';
             $params['subject'] .= "\n  ".'<!-- GS:FANCYBOX-START -->';
             $params['subject'] .= "\n  ".'<link rel="stylesheet" type="text/css" href="./files/addons/gs_fancybox/jquery.fancybox-1.3.4.css" media="screen, projection, print" />';
             $params['subject'] .= "\n  ".'<!--[if IE 6]><link rel="stylesheet" type="text/css" href="../files/addons/gs_fancybox/jquery.fancybox-1.3.4_ie6.css" media="screen" /><![endif]-->';
@@ -84,9 +89,10 @@
             $params['subject'] .= "\n  ".'<script type="text/javascript" src="./files/addons/gs_fancybox/jquery.easyslider-1.7.7.js"></script>';
             $params['subject'] .= "\n  ".'<!-- GS:FANCYBOX-ENDE -->';
          }
-         return str_replace('</head>', '</head>', $params['subject']);
+         return str_replace('<!-- GS:FANCYBOX-JS-TEMP-START -->', '<!-- GS:FANCYBOX-JS-TEMP-START -->' . $params['subject'], $params['subject']);
       }
       rex_register_extension('OUTPUT_FILTER', 'gs_fancybox_header');
+      */
    }
 
 ?>
